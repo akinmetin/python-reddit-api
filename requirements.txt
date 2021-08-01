@@ -2,3 +2,4 @@ Flask>=2.0.1
 requests>=2.26.0
 coverage>=5.5
 pylint>=2.9.6
+flake8>=3.9.2
