@@ -22,13 +22,13 @@ These instructions will assist you to run the API server.
 
 | Request Type | Use                                 |
 | ------------ |:----------------------------------- |
-| GET          | Get a resource or list of resources |
+| ``GET``      | Get a resource or list of resources |
 
 ## API Endpoints
 
 | Request Type      | Endpoint                    | What it does                                                          |
 | ----------------- |:--------------------------- |:--------------------------------------------------------------------- |
-| ``GET``           | /posts/top                  | Returns the top 5 post titles based on the score in descending order  |
+| ``GET``           | ``/posts/top``              | Returns the top 5 post titles based on the score in descending order  |
 
 ### Description of Usual Server Responses
 
