@@ -11,7 +11,7 @@ These instructions will assist you to run the API server.
 1. Download the repository and extract it to any folder.
 2. Create a virtual environment in the root folder with using ``python -m venv venv`` command.
 3. Activate the virtual environment with using ``source venv/bin/activate`` for MacOS/Linux and ``venv\Scripts\activate`` for Windows.
-4. Enter into ``api`` folder and install required python packages with using ``pip install -r requirements.txt``.
+4. Enter into root folder and install required python packages with using ``pip install -r requirements.txt``.
 
 ## Running Locally
 
