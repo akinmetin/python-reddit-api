@@ -22,6 +22,13 @@ class TestAPI(TestCase):
         self.assertEqual(len(req.json), 5)
         self.assertEqual(req.status_code, 200)
 
+    def test_get_top_five_posts_success_3(self):
+        req = self.app.get('/posts/top', query_string={
+            "url": "https://www.reddit.com/r/bulgaria/",
+        })
+        self.assertEqual(len(req.json), 5)
+        self.assertEqual(req.status_code, 200)
+
     def test_get_top_five_posts_fail(self):
         req = self.app.get('/posts/top', query_string={
             "url": "http://www.reddit.com",
